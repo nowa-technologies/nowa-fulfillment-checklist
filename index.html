@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIKO Smart Toy — US Market Compliance Report</title>
+<style>
+  :root{ --bg:#f5f6f8; --card:#fff; --ink:#1b2330; --muted:#5b6573; --line:#e3e7ec; --accent:#3b5bdb;
+    --ok-bg:#eaf6ec; --ok-ink:#1d6b2b; --bad-bg:#fdecea; --bad-ink:#9b2226; --warn-bg:#fff7e6; --warn-ink:#6a4e00;
+    --committed:#f3f8f4; --suggested:#fbfbfc; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.55;font-size:15px;}
+  .wrap{max-width:1040px;margin:0 auto;padding:30px 20px 70px;}
+  header.doc{border-bottom:3px solid var(--accent);padding-bottom:16px;margin-bottom:10px;}
+  .eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:700;}
+  h1{font-size:25px;margin:6px 0;}
+  .meta{color:var(--muted);font-size:13.5px;}
+  h2{font-size:19px;margin:34px 0 4px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;}
+  h2 .count{font-size:12.5px;font-weight:600;color:var(--muted);}
+  .blurb{color:var(--muted);font-size:13.5px;margin:0 0 8px;}
+  p{margin:8px 0;}
+  .legend{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:16px 0;box-shadow:0 1px 2px rgba(20,30,50,.04);}
+  .legend ul{margin:6px 0;padding-left:20px;} .legend li{margin:4px 0;font-size:14px;}
+  .purpose{background:#eef2ff;border:1px solid #c7d2fe;border-left:4px solid var(--accent);border-radius:12px;padding:15px 20px;margin:18px 0;}
+  .purpose p{margin:8px 0;font-size:14.5px;}
+  .focus{background:var(--warn-bg);border-left:3px solid #f0d27a;border-radius:6px;padding:10px 14px;margin-top:12px;font-size:14px;}
+  .focus .dl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#6a4e00;font-weight:700;margin-bottom:4px;}
+  .cats ul{margin:8px 0 2px;padding-left:20px;} .cats li{margin:6px 0;font-size:14px;}
+  .catnum{color:var(--muted);font-weight:600;}
+  .stats{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0;}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 16px;min-width:108px;box-shadow:0 1px 2px rgba(20,30,50,.04);}
+  .stat .num{font-size:22px;font-weight:800;} .stat .lbl{font-size:12px;color:var(--muted);}
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card);box-shadow:0 1px 2px rgba(20,30,50,.04);}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:720px;}
+  th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{background:#eef1f4;font-weight:700;position:sticky;top:0;}
+  tr.committed td{background:var(--committed);}
+  tr.suggested td{background:var(--suggested);}
+  td.id{color:var(--muted);font-variant-numeric:tabular-nums;}
+  .req{font-weight:700;margin-bottom:3px;}
+  .law{color:#46506a;font-size:11.5px;margin:2px 0 5px;font-style:italic;}
+  .comp{color:var(--muted);font-size:12px;margin-top:3px;}
+  .region{color:var(--muted);font-size:12px;margin-top:4px;}
+  .detailrow td{font-size:13px;color:#2a3340;border-bottom:2px solid var(--line);}
+  .detail-block{margin:4px 0 8px;}
+  .detail-block.note{background:var(--warn-bg);border-left:3px solid #f0d27a;padding:8px 12px;border-radius:6px;}
+  .dl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:3px;}
+  .tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 9px;border-radius:20px;white-space:nowrap;}
+  .ok{background:var(--ok-bg);color:var(--ok-ink);} .bad{background:var(--bad-bg);color:var(--bad-ink);}
+  .mid{background:var(--warn-bg);color:var(--warn-ink);}
+  .bad-soft{background:#f4f5f7;color:#6a727e;}
+  footer{margin-top:40px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padding-top:14px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="doc">
+  <div class="eyebrow">NOWA · AIKO Smart Toy</div>
+  <h1>US Market Compliance Report</h1>
+  <div class="meta">Consolidated HQTS + Tina certification list · for SBay &amp; internal review · generated 2026-06-30</div>
+</header>
+
+<div class="purpose">
+  <strong>Purpose of this document</strong>
+  <p>This is a single, consolidated list of the US-market compliance requirements for the AIKO smart toy, merged from HQTS's compliance testing list and Tina's list. It is shared with SBay as one reference point so the requirements, their legal basis, risk level and lead time are clear in one place.</p>
+  <p>The items marked <span class="tag ok">✅ Committed</span> are the ones NOWA currently intends to complete — but NOWA is also seeking SBay's further advice, because some of them may not be necessary in the current phase.</p>
+  <div class="focus">
+    <div class="dl">Issue to focus on</div>
+    The full list is confirmed complete; what is not yet clear is the <strong>priority for this phase</strong>. We would like SBay to help review the committed items and advise <strong>which are genuinely required now</strong> (e.g. for the first US shipment and current sales channel) <strong>versus which can be deferred</strong> to a later phase — so NOWA can sequence testing and documentation correctly. Advice on whether any <span class="tag mid">◻ HQTS-suggested</span> items are needed at this stage is also welcome.
+  </div>
+</div>
+
+<div class="legend">
+  <strong>How to read this</strong>
+  <ul>
+    <li><span class="tag ok">✅ Committed</span> — NOWA intends to do this (checked "to-do" on the Notion board), pending SBay's advice on whether it is needed in the current phase. <span class="tag mid">◻ HQTS-suggested</span> — HQTS recommends but it is not committed.</li>
+    <li><strong>Type</strong>: <em>Mandatory</em> (required by US law) · <em>Contingent</em> (required only if a condition applies) · <em>Voluntary</em> (recommended) · <em>Confirming</em> (still being decided).</li>
+    <li><strong>Risk</strong>: <span class="tag bad">High Risk</span> <span class="tag mid">Medium Risk</span> <span class="tag ok">Low Risk</span>.</li>
+    <li><strong>§</strong> under each requirement = the governing <em>Law &amp; Standard</em>; <strong>Region</strong> shows where it applies. The detail row (below each item) explains <em>what the requirement is</em>, plus bilingual notes where available.</li>
+  </ul>
+</div>
+
+<div class="legend cats">
+  <strong>Categories explained</strong>
+  <ul>
+    <li><strong>Test report</strong> <span class="catnum">(18)</span> — Laboratory test reports or certificates proving the product (or a specific component) meets a safety or chemical standard — normally issued by an accredited lab.</li><li><strong>Labeling &amp; Packaging</strong> <span class="catnum">(10)</span> — Marks, labels, logos and warnings that must physically appear on the product or its packaging (e.g. country of origin, FCC logo, age range, safety warnings).</li><li><strong>Instructions</strong> <span class="catnum">(13)</span> — Information to be provided in the user manual / instructions for use — operation, safety, maintenance, identifiers and similar.</li><li><strong>Regulatory Affair</strong> <span class="catnum">(9)</span> — Legal and regulatory obligations such as privacy rules, state registrations and chemical reporting — compliance with a law, rather than a physical test or label.</li>
+  </ul>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="num">50</div><div class="lbl">Total items</div></div>
+  <div class="stat"><div class="num">38</div><div class="lbl">✅ Committed</div></div>
+  <div class="stat"><div class="num">12</div><div class="lbl">◻ HQTS-suggested</div></div>
+  <div class="stat"><div class="num">17</div><div class="lbl">Mandatory</div></div>
+  <div class="stat"><div class="num">13</div><div class="lbl">Contingent</div></div>
+  <div class="stat"><div class="num">17</div><div class="lbl">Voluntary</div></div>
+  <div class="stat"><div class="num">3</div><div class="lbl">Confirming</div></div>
+</div>
+
+
+    <h2>Mandatory <span class="count">17 items · 17 committed</span></h2>
+    <p class="blurb">Required by US law — must be done.</p>
+    <div class="tablewrap">
+    <table>
+      <thead><tr>
+        <th style="width:34px">#</th>
+        <th>Requirement</th>
+        <th>Category</th>
+        <th>Applies to</th>
+        <th style="width:78px">Risk</th>
+        <th style="width:70px">Lead&nbsp;time</th>
+        <th style="width:96px">Status</th>
+      </tr></thead>
+      <tbody>
+        <tr class="committed">
+          <td class="id">1</td>
+          <td><div class="req">CPC(Children Product Certificate)</div><div class="law">§ 16 CFR PART 1110—CERTIFICATES OF COMPLIANCE</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>All</div><div class="comp">Component: All product</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>2 weeks</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A Children&#x27;s Product Certificate (CPC) is a document, based on the US test reports, in which the manufacturer/importer certifies that the children&#x27;s product complies with all applicable US children&#x27;s product safety rules. Required for all children&#x27;s products.</div></td></tr>
+        <tr class="committed">
+          <td class="id">2</td>
+          <td><div class="req">Test report of TPCH</div><div class="law">§ US-TPCH-Model Toxics in Packaging Legislation</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>Packaging</div><div class="comp">Component: Packaging</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>2 weeks</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A packaging test report / certificate showing that packaging materials meet the Toxics in Packaging limits: combined lead, cadmium, mercury and hexavalent chromium ≤ 100 ppm (0.01%); total phthalates ≤ 100 ppm (0.01%); and free of PFAS.</div></td></tr>
+        <tr class="committed">
+          <td class="id">3</td>
+          <td><div class="req">Country of Origin</div><div class="law">§ 19 CFR 134 Country of Origin Marking</div><span class="tag ok">✅ Committed</span></td>
+          <td>Labeling &amp; Packaging</td>
+          <td><div>Product and/or packaging</div><div class="comp">Component: Enclosure, Packaging, User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A marking on the product and/or packaging stating where it was made (e.g. &quot;Made in China&quot;), as required by US country-of-origin marking rules.</div></td></tr>
+        <tr class="committed">
+          <td class="id">4</td>
+          <td><div class="req">FCC ID</div><div class="law">§ FCC- 47 CFR Part 15 -- Radio Frequency Devices</div><span class="tag ok">✅ Committed</span></td>
+          <td>Labeling &amp; Packaging</td>
+          <td><div>Product and/or packaging</div><div class="comp">Component: Enclosure, Packaging, User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>An FCC identifier shown on the exterior label (taken from the FCC certificate), e.g. &quot;Contains FCC ID: XYZMODEL1&quot;. For very small devices it may instead appear in the user manual plus the packaging or a removable label.</div></td></tr>
+        <tr class="committed">
+          <td class="id">5</td>
+          <td><div class="req">Age Indication</div><div class="law">§ 16 CFR part 1250</div><span class="tag ok">✅ Committed</span></td>
+          <td>Labeling &amp; Packaging</td>
+          <td><div>Product and/or packaging</div><div class="comp">Component: Enclosure, Packaging, User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>An age range stated on the product label (e.g. &quot;for children 3–9 years old&quot;).</div></td></tr>
+        <tr class="committed">
+          <td class="id">6</td>
+          <td><div class="req">Tracking information</div><span class="tag ok">✅ Committed</span></td>
+          <td>Labeling &amp; Packaging</td>
+          <td><div>Product and packaging</div><div class="comp">Component: Packaging, Enclosure</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Permanent tracking marks on the children&#x27;s product and its packaging that allow the source to be identified: manufacturer/importer or private-labeler name, location and date of production, batch/run number or other identifying characteristics, and any information that helps trace the specific source.</div></td></tr>
+        <tr class="committed">
+          <td class="id">7</td>
+          <td><div class="req">FCC Logo &amp; FCC statement</div><div class="law">§ FCC- 47 CFR Part 15 -- Radio Frequency Devices</div><span class="tag ok">✅ Committed</span></td>
+          <td>Labeling &amp; Packaging</td>
+          <td><div>Product and packaging</div><div class="comp">Component: Packaging, Enclosure</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>The FCC logo and the Part 15 compliance statement printed on the product (and the charger): &quot;This device complies with part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) this device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation.&quot;</div></td></tr>
+        <tr class="committed">
+          <td class="id">8</td>
+          <td><div class="req">FCC Test report (47 CFR part 15C)</div><div class="law">§ FCC- 47 CFR Part 15 -- Radio Frequency Devices</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>Wireless Connection</div><div class="comp">Component: Core</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>4 weeks</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A test report and certificate for FCC 47 CFR Part 15 Subpart C (intentional radiators / wireless connection), issued by an FCC-recognized accredited laboratory; it is the basis for obtaining the FCC ID.</div></td></tr>
+        <tr class="committed">
+          <td class="id">39</td>
+          <td><div class="req">FCC Test report (47 CFR part 15B)</div><div class="law">§ FCC- 47 CFR Part 15 -- Radio Frequency Devices</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>Charger</div><div class="comp">Component: Charger</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>1 week</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A test report and certificate for FCC 47 CFR Part 15 Subpart B (unintentional radiators) for the charger, together with the FCC SDoC. The charger may instead be tested together with the wireless module.</div></td></tr>
+        <tr class="committed">
+          <td class="id">40</td>
+          <td><div class="req">Toy Safety (ASTM F963-16)</div><div class="law">§ 16 CFR part 1250</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>Plush Toy</div><div class="comp">Component: Enclosure, Silicone Skin, Attachment Band</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A toy-safety test report (ASTM F963-16) from a CPSC-accredited laboratory. It covers many aspects: impact, choking, chemicals and warning labels.</div><div class="detail-block note"><div class="dl">To understand (ghi chú)</div>Bao phủ nhiều khía cạnh: va đập, hóc, hóa chất, nhãn cảnh báo<br><br>Covers many aspects: impact, choking, chemicals, warning labels.</div></td></tr>
+        <tr class="committed">
+          <td class="id">41</td>
+          <td><div class="req">15 USC 1278a (Total Lead)</div><div class="law">§ 15 U.S. Code § 1278a - Children’s products containing lead; lead paint rule</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>Plush Toy</div><div class="comp">Component: Attachment Band, Enclosure, Silicone Skin</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Testing by a CPSC-accredited laboratory confirming that total lead content in the base material is below 100 ppm.</div><div class="detail-block note"><div class="dl">To understand (ghi chú)</div>Hàm lượng chì trong vật liệu nền (&lt;100 ppm)<br><br>Lead content in base material (&lt;100 ppm)</div></td></tr>
+        <tr class="committed">
+          <td class="id">42</td>
+          <td><div class="req">16 CFR 1303 (Lead Coating)</div><div class="law">§ 16 CFR 1303 (Ban of Lead-Containing Paint and Certain Consumer Products Bearing Lead-Containing Paint)</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>Plush Toy</div><div class="comp">Component: Silicone Skin, Enclosure, Attachment Band</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Lead testing by a CPSC-accredited laboratory confirming that lead in paint coatings / contact surfaces is below 90 ppm.</div><div class="detail-block note"><div class="dl">To understand (ghi chú)</div>Hàm lượng chì &lt;90 ppm trong lớp phủ sơn/bề mặt tiếp xúc<br><br>Lead content &lt;90 ppm in paint coatings/contact surfaces</div></td></tr>
+        <tr class="committed">
+          <td class="id">43</td>
+          <td><div class="req">16 CFR 1307 (Phthalates)</div><div class="law">§ 16 CFR part 1307 - PROHIBITION OF CHILDREN&#x27;S TOYS AND CHILD CARE ARTICLES CONTAINING SPECIFIED PHTHALATES</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>Plush Toy</div><div class="comp">Component: Silicone Skin, Enclosure, Attachment Band</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Testing by a CPSC-accredited laboratory confirming that phthalates are below the 0.1% limit for plastics, silicones and similar materials.</div><div class="detail-block note"><div class="dl">To understand (ghi chú)</div>Giới hạn hàm lượng Phthalates (&lt;0.1%) cho nhựa, silicone…<br><br>Phthalates content limit (&lt;0.1%) for plastics, silicones…</div></td></tr>
+        <tr class="committed">
+          <td class="id">44</td>
+          <td><div class="req">Children’s Online Privacy Protection Rule</div><div class="law">§ 16 CFR PART 312—(COPPR)CHILDREN&#x27;S ONLINE PRIVACY PROTECTION RULE</div><span class="tag ok">✅ Committed</span></td>
+          <td>Regulatory Affair</td>
+          <td><div>App</div><div class="comp">Component: App/Web User Privacy Policy</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>The Children&#x27;s Online Privacy Protection Rule (COPPA) governs websites/online services directed to children. The operator must: give notice of what information is collected from children, how it is used and disclosed; obtain verifiable parental consent before collection, use or disclosure; provide a means for a parent to review the information and refuse further use; not condition a child&#x27;s participation on disclosing more information than necessary; and maintain reasonable procedures to protect the data.</div></td></tr>
+        <tr class="committed">
+          <td class="id">45</td>
+          <td><div class="req">Transportation Test Report for Lithium Battery</div><div class="law">§ PART 171—GENERAL INFORMATION REGULATIONS AND DEFINITIONS (UN38.3)</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>Lithium Battery</div><div class="comp">Component: Battery</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag bad">High Risk</span></td>
+          <td>4 weeks</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Transport-safety documentation for the lithium battery: MSDS, UN38.3, IEC 62133-2 and IMDG. Not required by law, but normally required by transportation companies.</div><div class="detail-block note"><div class="dl">To understand (ghi chú)</div>Normally required for transportation services</div></td></tr>
+        <tr class="committed">
+          <td class="id">179</td>
+          <td><div class="req">California Proposition 65</div><div class="law">§ California Proposition 65</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>All</div><div class="comp">Component: All product</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>2 weeks</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A California Proposition 65 test report from an accredited laboratory showing that listed substances do not exceed California&#x27;s limits. An accurate ingredient list with CAS numbers allows verification of whether any substance is listed under Prop 65.</div><div class="detail-block note"><div class="dl">To understand (ghi chú)</div>Mã CAS (Chemical Abstracts Service) chỉ đơn thuần là mã định danh duy nhất cho từng hóa chất<br><br>Chemical Abstracts Service (CAS) code is simply a unique identifier for each chemical<br><br>To-do: have the accurate ingredient list with CAS number</div></td></tr>
+        <tr class="committed">
+          <td class="id">180</td>
+          <td><div class="req">Illinois Lead Act Compliance</div><div class="law">§ Illinois - Lead Poisoning Prevention Act</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>Plush Toy</div><div class="comp">Component: Enclosure, Silicone Skin, Attachment Band</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A test report from an accredited laboratory verifying compliance with the Illinois Lead Poisoning Prevention Act: lead in all accessible parts must not exceed the limits (paint/coating &lt; 90 ppm and base material &lt; 100 ppm). Applies to articles or toys for children under 12 sold or distributed in Illinois.</div><div class="detail-block note"><div class="dl">To understand (ghi chú)</div>• Áp dụng khi nào?<br>Khi bạn bán hoặc phân phối sản phẩm tại tiểu bang Illinois, và sản phẩm là đồ dùng hoặc đồ chơi cho trẻ dưới 12 tuổi.<br>• Yêu cầu chính:<br>Test để đảm bảo hàm lượng chì trong vật liệu phủ hoặc sơn &lt; 90 ppm, và vật liệu nền &lt; 100 ppm.<br><br>• When does it apply?<br>When you sell or distribute a product in the state of Illinois, and the product is an article or toy for children under 12 years of age.<br>• Main requirement:<br>Test to ensure that the lead content in the coating or paint material is &lt;90 ppm, and the base material is &lt;100 ppm.</div></td></tr></tbody></table></div>
+    <h2>Contingent <span class="count">13 items · 7 committed</span></h2>
+    <p class="blurb">Required only if a condition applies (a state, a material, a test outcome).</p>
+    <div class="tablewrap">
+    <table>
+      <thead><tr>
+        <th style="width:34px">#</th>
+        <th>Requirement</th>
+        <th>Category</th>
+        <th>Applies to</th>
+        <th style="width:78px">Risk</th>
+        <th style="width:70px">Lead&nbsp;time</th>
+        <th style="width:96px">Status</th>
+      </tr></thead>
+      <tbody>
+        <tr class="committed">
+          <td class="id">46</td>
+          <td><div class="req">California Consumer Privacy Act (CCPA)</div><div class="law">§ California Consumer Privacy Act (CCPA)</div><span class="tag ok">✅ Committed</span></td>
+          <td>Regulatory Affair</td>
+          <td><div>All</div><div class="comp">Component: App/Web User Privacy Policy</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag mid">Medium Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>The California Consumer Privacy Act (CCPA) gives California consumers more control over their personal information, including: the right to know what is collected and how it is used and shared; the right to delete it (with some exceptions); the right to opt out of its sale or sharing (including via GPC); and the right to non-discrimination for exercising these rights.</div></td></tr>
+        <tr class="committed">
+          <td class="id">47</td>
+          <td><div class="req">California Internet of Things (IoT) Security Law SB-327</div><div class="law">§ California Internet of Things (IoT) Security Law SB-327</div><span class="tag ok">✅ Committed</span></td>
+          <td>Regulatory Affair</td>
+          <td><div>All</div><div class="comp">Component: App/Web User Privacy Policy</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag mid">Medium Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>California&#x27;s Internet of Things Security Law (SB-327) requires manufacturers of connected devices to implement reasonable security features appropriate to the device (e.g. data encryption, secure APIs, regular updates) and, for devices connecting outside the local network, either preprogrammed unique passwords or a forced password change on first use.</div></td></tr>
+        <tr class="committed">
+          <td class="id">48</td>
+          <td><div class="req">California Data Breach Notification Law</div><div class="law">§ California Data Breach Notification Law</div><span class="tag ok">✅ Committed</span></td>
+          <td>Regulatory Affair</td>
+          <td><div>All</div><div class="comp">Component: App/Web User Privacy Policy</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag mid">Medium Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>California&#x27;s Data Breach Notification Law sets the requirements for notifying consumers when their personal information is involved in a data breach.</div></td></tr>
+        <tr class="suggested">
+          <td class="id">109</td>
+          <td><div class="req">Washington State Reporting Rule</div><div class="law">§ Children&#x27;s Safe Products Act (Chapter 70A.430 RCW)</div><span class="tag mid">◻ HQTS-suggested</span></td>
+          <td>Regulatory Affair</td>
+          <td><div>All</div><div class="comp">Component: —</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag mid">Medium Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow suggested"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Reporting to Washington State is required when a Chemical of High Concern to Children (CHCC) is present above 100 ppm (0.01%) in an accessible component of a children&#x27;s product. No fees required.</div></td></tr>
+        <tr class="suggested">
+          <td class="id">110</td>
+          <td><div class="req">Texas State Registration</div><div class="law">§ Hazardous Consumer Products Registration</div><span class="tag mid">◻ HQTS-suggested</span></td>
+          <td>Regulatory Affair</td>
+          <td><div>All</div><div class="comp">Component: —</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag mid">Medium Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow suggested"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Registration with the State of Texas to obtain a license to sell hazardous materials; children&#x27;s products (and art materials) are specifically listed. Fees required.</div></td></tr>
+        <tr class="suggested">
+          <td class="id">111</td>
+          <td><div class="req">Maine State Reporting Rule</div><div class="law">§ Title 38 Chapter 16-D: Toxic Chemicals In Children&#x27;s Products</div><span class="tag mid">◻ HQTS-suggested</span></td>
+          <td>Regulatory Affair</td>
+          <td><div>All</div><div class="comp">Component: —</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag mid">Medium Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow suggested"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Reporting to Maine is required when a Priority Chemical is at or above the practical quantification limit (PQL) in an accessible component of a children&#x27;s product. Fees required.</div></td></tr>
+        <tr class="suggested">
+          <td class="id">112</td>
+          <td><div class="req">Vermont State Reporting Rule</div><div class="law">§ Chemical Disclosure Program for Children&#x27;s Products (Act 188 18 V.S.A. Chapter 38A)</div><span class="tag mid">◻ HQTS-suggested</span></td>
+          <td>Regulatory Affair</td>
+          <td><div>All</div><div class="comp">Component: —</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag mid">Medium Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow suggested"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Reporting to Vermont is required when a Chemical of High Concern to Children (CHCC) is present above 100 ppm (0.01%) in an accessible component of a children&#x27;s product. Fee required.</div></td></tr>
+        <tr class="suggested">
+          <td class="id">113</td>
+          <td><div class="req">Oregon State Reporting Rule</div><div class="law">§ Toxic-Free Kids Act (ORS 431A.253 - 431A.280)</div><span class="tag mid">◻ HQTS-suggested</span></td>
+          <td>Regulatory Affair</td>
+          <td><div>All</div><div class="comp">Component: —</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag mid">Medium Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow suggested"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Reporting to Oregon is required when a High Priority Chemical of Concern for Children&#x27;s Health (HPCCCH) is present above 100 ppm (0.01%) in an accessible component of a children&#x27;s product. Fees required every 2 years.</div></td></tr>
+        <tr class="suggested">
+          <td class="id">114</td>
+          <td><div class="req">Button Battery Safety (UL 4200A)</div><div class="law">§ Reese’s Law (P.L. 117-171)</div><span class="tag mid">◻ HQTS-suggested</span></td>
+          <td>Test report</td>
+          <td><div>Battery</div><div class="comp">Component: Battery</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow suggested"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A UL 4200A test report, required if the product includes any button or coin battery (under Reese&#x27;s Law).</div></td></tr>
+        <tr class="committed">
+          <td class="id">181</td>
+          <td><div class="req">California Prop 65 Warning</div><div class="law">§ California Proposition 65</div><span class="tag ok">✅ Committed</span></td>
+          <td>Labeling &amp; Packaging</td>
+          <td><div>Product and packaging</div><div class="comp">Component: App/Web User Privacy Policy, Packaging</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A Prop 65 warning label, required if any substance exceeds California&#x27;s limits. It uses the exact Prop 65 wording — &quot;WARNING: This product can expose you to [chemical(s)], which is known to the State of California to cause cancer [and/or birth defects or other reproductive harm]…&quot; — with the official warning symbol, placed on the product or packaging and on online listings before checkout.</div></td></tr>
+        <tr class="committed">
+          <td class="id">182</td>
+          <td><div class="req">Illinois Lead Poisoning Prevention Act Labeling</div><div class="law">§ Illinois - Lead Poisoning Prevention Act</div><span class="tag ok">✅ Committed</span></td>
+          <td>Labeling &amp; Packaging</td>
+          <td><div>Product</div><div class="comp">Component: Enclosure, Silicone Skin, Attachment Band, Packaging</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>If paints contain total lead between 40 ppm and 600 ppm, a specific warning label is required: &quot;WARNING: CONTAINS LEAD. MAY BE HARMFUL IF EATEN OR CHEWED. MAY GENERATE DUST CONTAINING LEAD.&quot; It must be displayed prominently on the product itself or on its immediate container.</div></td></tr>
+        <tr class="committed">
+          <td class="id">183</td>
+          <td><div class="req">Suffocation Warning</div><div class="law">§ (GPSR)REGULATION (EU) 2023/988 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 May 2023 on general product safety</div><span class="tag ok">✅ Committed</span></td>
+          <td>Labeling &amp; Packaging</td>
+          <td><div>Plastic bag</div><div class="comp">Component: Packaging</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A suffocation warning on any plastic films or bags, e.g. &quot;Warning: To avoid the danger of suffocation, keep this plastic bag away from babies and children. Do not use this bag in cribs, beds, carriages, or playpens. This bag is not a toy.&quot;</div></td></tr>
+        <tr class="committed">
+          <td class="id">184</td>
+          <td><div class="req">Washington Lead-Cadmium-Phthalate Content</div><div class="law">§ Children&#x27;s Safe Products Act (Chapter 70A.430 RCW)</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>Plush Toy</div><div class="comp">Component: Enclosure, Attachment Band, Silicone Skin</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A test report for cadmium, lead and phthalates under Washington&#x27;s Children&#x27;s Safe Products Act (RCW 70.240.020): lead ≤ 90 ppm, cadmium ≤ 40 ppm, and phthalates ≤ 1000 ppm (individually or combined). Washington also restricts/declares 85+ chemicals of concern.</div><div class="detail-block note"><div class="dl">To understand (ghi chú)</div>• Áp dụng khi nào?<br>Nếu bạn dự định bán hàng tại bang Washington (WA), đặc biệt nếu sản phẩm thuộc diện “children’s product”.<br>• Yêu cầu:<br>Hạn chế và/hoặc khai báo 85+ hóa chất quan tâm, bao gồm:<br>    ◦ Lead (Chì)<br>    ◦ Cadmium (Cadimi)<br>    ◦ Phthalates<br><br>• When does it apply?<br>If you plan to sell in Washington State (WA), especially if the product is a “children’s product.”<br>• Requirements: Restrict and/or declare 85+ chemicals of concern, including:<br>◦ Lead<br>◦ Cadmium<br>◦ Phthalates</div></td></tr></tbody></table></div>
+    <h2>Voluntary <span class="count">17 items · 14 committed</span></h2>
+    <p class="blurb">Not legally required — recommended / good practice.</p>
+    <div class="tablewrap">
+    <table>
+      <thead><tr>
+        <th style="width:34px">#</th>
+        <th>Requirement</th>
+        <th>Category</th>
+        <th>Applies to</th>
+        <th style="width:78px">Risk</th>
+        <th style="width:70px">Lead&nbsp;time</th>
+        <th style="width:96px">Status</th>
+      </tr></thead>
+      <tbody>
+        <tr class="committed">
+          <td class="id">9</td>
+          <td><div class="req">Others</div><span class="tag ok">✅ Committed</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Labelling information is also recommended to be reflected in the instructions, with the text translated into the local language(s) of the countries where the product is sold.</div></td></tr>
+        <tr class="committed">
+          <td class="id">10</td>
+          <td><div class="req">Bar code</div><span class="tag ok">✅ Committed</span></td>
+          <td>Labeling &amp; Packaging</td>
+          <td><div>Packaging</div><div class="comp">Component: Packaging</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A barcode on the packaging where applicable (for example, needed when selling the product on Amazon).</div><div class="detail-block note"><div class="dl">To understand (ghi chú)</div>Cần làm nếu mình bán hàng trên Amazon<br><br>Needed if we want to sell product on Amazon</div></td></tr>
+        <tr class="committed">
+          <td class="id">11</td>
+          <td><div class="req">Technical Data</div><span class="tag ok">✅ Committed</span></td>
+          <td>Labeling &amp; Packaging</td>
+          <td><div>Product and packaging</div><div class="comp">Component: Enclosure, User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Technical information on the product label, for example rated input voltage and battery capacity.</div></td></tr>
+        <tr class="committed">
+          <td class="id">12</td>
+          <td><div class="req">Test Report for Battery (UL 1642)</div><span class="tag ok">✅ Committed</span></td>
+          <td>Test report</td>
+          <td><div>Battery</div><div class="comp">Component: Battery</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>2 weeks</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A UL 1642 safety test report for lithium batteries. Not required by US federal law, but often required to enter major retail chains. UL 1642 assesses risks such as overheating, short-circuiting, impact/vibration/explosion, reverse polarity, compression and needle penetration.</div><div class="detail-block note"><div class="dl">To understand (ghi chú)</div>- Thường yêu cầu phải có nếu muốn vào các chuỗi bán lẻ lớn<br>- Không có luật liên bang nào ở Mỹ bắt buộc sản phẩm tiêu dùng phải có chứng nhận UL 1642<br>- UL 1642 đánh giá các rủi ro như:<br>    ◦ Quá nhiệt<br>    ◦ Chập mạch<br>    ◦ Va đập, rung, cháy nổ<br>    ◦ Phân cực ngược, thử nghiệm ép, xuyên kim…</div></td></tr>
+        <tr class="committed">
+          <td class="id">13</td>
+          <td><div class="req">Explanation of safety signs, graphical symbols and markings</div><span class="tag ok">✅ Committed</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Any safety signs, graphical symbols, pictograms and markings placed on the product and packaging are explained (in the instructions).</div></td></tr>
+        <tr class="committed">
+          <td class="id">14</td>
+          <td><div class="req">Information for use needed during the lifetime</div><span class="tag ok">✅ Committed</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Information needed across the product&#x27;s lifetime, where relevant: re-packaging, transport and storage, installation, commissioning, and modification of the product.</div></td></tr>
+        <tr class="committed">
+          <td class="id">15</td>
+          <td><div class="req">Preparation for use</div><span class="tag ok">✅ Committed</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Instructions for unpacking, assembly and setup, including assembly of any self-assembly parts.</div></td></tr>
+        <tr class="committed">
+          <td class="id">16</td>
+          <td><div class="req">Operation of the supported product</div><span class="tag ok">✅ Committed</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Information on operating the product: normal operation, exceptional and emergency situations, indication of faults and warning signals, and the meaning of those signals.</div></td></tr>
+        <tr class="committed">
+          <td class="id">17</td>
+          <td><div class="req">Maintenance of the supported product by non-skilled and skilled persons</div><span class="tag ok">✅ Committed</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Instructions on how users can maintain the product themselves, where this is possible.</div></td></tr>
+        <tr class="committed">
+          <td class="id">18</td>
+          <td><div class="req">Troubleshooting and repair of the supported product by non-skilled and skilled persons</div><span class="tag ok">✅ Committed</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Instructions on how users can troubleshoot and repair the product themselves, where applicable.</div></td></tr>
+        <tr class="suggested">
+          <td class="id">115</td>
+          <td><div class="req">Supplied accessories, consumables and spare parts</div><span class="tag mid">◻ HQTS-suggested</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: —</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow suggested"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Information about any supplied accessories, consumables and spare parts.</div></td></tr>
+        <tr class="suggested">
+          <td class="id">116</td>
+          <td><div class="req">Replacement of parts of the supported product by non-skilled and skilled persons</div><span class="tag mid">◻ HQTS-suggested</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow suggested"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Instructions on how users can replace parts of the product themselves, where applicable.</div></td></tr>
+        <tr class="suggested">
+          <td class="id">117</td>
+          <td><div class="req">Test report (UL 62368-1)</div><span class="tag mid">◻ HQTS-suggested</span></td>
+          <td>Test report</td>
+          <td><div>Product, Charger</div><div class="comp">Component: Charger, Battery, Core</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow suggested"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A UL 62368-1 safety test report, recommended to ensure safety of the electrical parts, mainly the battery charger.</div></td></tr>
+        <tr class="committed">
+          <td class="id">185</td>
+          <td><div class="req">Product description and Intended use</div><span class="tag ok">✅ Committed</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>A statement of the product&#x27;s intended use and its target user.</div></td></tr>
+        <tr class="committed">
+          <td class="id">186</td>
+          <td><div class="req">Safety-related information</div><span class="tag ok">✅ Committed</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Any safety-related information, such as safety warnings or precautions.</div></td></tr>
+        <tr class="committed">
+          <td class="id">187</td>
+          <td><div class="req">Identifier</div><span class="tag ok">✅ Committed</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>Product identification: the product name, model number, and the manufacturer&#x27;s name and address.</div></td></tr>
+        <tr class="committed">
+          <td class="id">188</td>
+          <td><div class="req">Importance of retaining printed information for use</div><span class="tag ok">✅ Committed</span></td>
+          <td>Instructions</td>
+          <td><div>All</div><div class="comp">Component: User manual</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>—</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow committed"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>When instructions are provided on paper, a statement reminding the user to keep them for the product&#x27;s lifetime, e.g. &quot;IMPORTANT! Read carefully before use. Keep for future reference.&quot;</div></td></tr></tbody></table></div>
+    <h2>Confirming (đang chốt) <span class="count">3 items · 0 committed</span></h2>
+    <p class="blurb">Still being confirmed whether NOWA needs this.</p>
+    <div class="tablewrap">
+    <table>
+      <thead><tr>
+        <th style="width:34px">#</th>
+        <th>Requirement</th>
+        <th>Category</th>
+        <th>Applies to</th>
+        <th style="width:78px">Risk</th>
+        <th style="width:70px">Lead&nbsp;time</th>
+        <th style="width:96px">Status</th>
+      </tr></thead>
+      <tbody>
+        <tr class="suggested">
+          <td class="id">450</td>
+          <td><div class="req">Battery IEC62133-2 (550)</div><span class="tag mid">◻ HQTS-suggested</span></td>
+          <td>Test report</td>
+          <td><div>Battery</div><div class="comp">Component: Battery</div><div class="region">Mixed 🌐</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>3 weeks</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow suggested"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>An international battery-safety standard (IEC 62133-2). Still being confirmed whether it is needed.</div></td></tr>
+        <tr class="suggested">
+          <td class="id">451</td>
+          <td><div class="req">IP43 Dustproof/Waterproof</div><span class="tag mid">◻ HQTS-suggested</span></td>
+          <td>Test report</td>
+          <td><div>Product</div><div class="comp">Component: Packaging</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>1 week</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow suggested"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>An IP43 ingress-protection rating (limited dust and water-spray resistance). Still being confirmed whether it is needed.</div></td></tr>
+        <tr class="suggested">
+          <td class="id">452</td>
+          <td><div class="req">TSCA (650)</div><span class="tag mid">◻ HQTS-suggested</span></td>
+          <td>Test report</td>
+          <td><div>Chemical substances</div><div class="comp">Component: Core</div><div class="region">US 🇺🇸</div></td>
+          <td><span class="tag ok">Low Risk</span></td>
+          <td>2 weeks</td>
+          <td><span class="tag bad-soft">Missing</span></td>
+        </tr><tr class="detailrow suggested"><td></td><td colspan="6"><div class="detail-block"><div class="dl">What it is</div>TSCA (Toxic Substances Control Act) — relates to whether the product contains formaldehyde. As this is not a wood product, it is still being confirmed whether it is actually required.</div><div class="detail-block note"><div class="dl">To understand (ghi chú)</div>Không phải đồ gỗ, nên đang confirm xem liệu thật sự có cần không</div></td></tr></tbody></table></div>
+
+<footer>
+  Source: consolidated Notion board "[Resent to SBay] [All in one version] HQTS Compliance Report — AIKO — PML",
+  which merges Tina's list and the HQTS compliance testing list. Product: AIKO smart plush toy (US market).
+  This page is a static snapshot generated from <code>data.json</code>; re-run <code>generate.py</code> after updating the data.
+</footer>
+</div>
+</body>
+</html>

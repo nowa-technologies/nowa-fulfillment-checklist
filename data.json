@@ -1,0 +1,1068 @@
+[
+{
+"id": 1,
+"Category": "Test report",
+"Type": "1. Mandatory",
+"Requirements": "CPC(Children Product Certificate)",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "High Risk",
+"Leadtime": "2 weeks",
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"All product"
+],
+"Description": "What We Need To Do\n• Make a CPC based on the US test reports mentioned above.\nAdditional Information\nPlease make the CPC by following the template here.",
+"To understand": null,
+"Law & Standards": "16 CFR PART 1110—CERTIFICATES OF COMPLIANCE",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A Children's Product Certificate (CPC) is a document, based on the US test reports, in which the manufacturer/importer certifies that the children's product complies with all applicable US children's product safety rules. Required for all children's products."
+},
+{
+"id": 2,
+"Category": "Test report",
+"Type": "1. Mandatory",
+"Requirements": "Test report of TPCH",
+"Applicable Items": [
+"Packaging"
+],
+"Risk Level": "High Risk",
+"Leadtime": "2 weeks",
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Packaging"
+],
+"Description": "What We Need To Do\nEnsure that packaging components meet these requirements:\n1. The combined concentration levels of lead, cadmium, mercury, and hexavalent chromium must not exceed 100 ppm (0.01%) by weight.\n2. The total concentration of phthalates must not exceed 100 ppm (0.01%) by weight.\n3. Components must be free of PFAS.\n4. Make the COC based on the test results.",
+"To understand": null,
+"Law & Standards": "US-TPCH-Model Toxics in Packaging Legislation",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A packaging test report / certificate showing that packaging materials meet the Toxics in Packaging limits: combined lead, cadmium, mercury and hexavalent chromium ≤ 100 ppm (0.01%); total phthalates ≤ 100 ppm (0.01%); and free of PFAS."
+},
+{
+"id": 3,
+"Category": "Labeling & Packaging",
+"Type": "1. Mandatory",
+"Requirements": "Country of Origin",
+"Applicable Items": [
+"Product and/or packaging"
+],
+"Risk Level": "High Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Enclosure",
+"Packaging",
+"User manual"
+],
+"Description": "What We Need To Do\nAdd the country of origin on the product.\nFor example,\nMade In China",
+"To understand": null,
+"Law & Standards": "19 CFR 134 Country of Origin Marking",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A marking on the product and/or packaging stating where it was made (e.g. \"Made in China\"), as required by US country-of-origin marking rules."
+},
+{
+"id": 4,
+"Category": "Labeling & Packaging",
+"Type": "1. Mandatory",
+"Requirements": "FCC ID",
+"Applicable Items": [
+"Product and/or packaging"
+],
+"Risk Level": "High Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Enclosure",
+"Packaging",
+"User manual"
+],
+"Description": "What We Need To Do\nAdd the FCC ID on the exterior label (You will find the FCC ID on the FCC certificate).Contains Transmitter Module FCC ID: XYZMODEL1\norContains FCC ID:XYZMODEL1\n\nAdditional Information\nIf a device is so small that it is impractical to label it with the FCC Identifier in a font that is four-point or larger, and the device does not have a display that can show electronic labeling, then the FCC Identifier shall be placed in the user manual and must also either be placed on the device packaging or on a removable label attached to the device.\nhttps://www.ecfr.gov/current/title-47/chapter-I/subchapter-A/part-2",
+"To understand": null,
+"Law & Standards": "FCC- 47 CFR Part 15 -- Radio Frequency Devices",
+"Regions": "US 🇺🇸",
+"WhatItIs": "An FCC identifier shown on the exterior label (taken from the FCC certificate), e.g. \"Contains FCC ID: XYZMODEL1\". For very small devices it may instead appear in the user manual plus the packaging or a removable label."
+},
+{
+"id": 5,
+"Category": "Labeling & Packaging",
+"Type": "1. Mandatory",
+"Requirements": "Age Indication",
+"Applicable Items": [
+"Product and/or packaging"
+],
+"Risk Level": "High Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Enclosure",
+"Packaging",
+"User manual"
+],
+"Description": "What We Need To Do\nAdd the age range on the product label.\nFor example, for children 3-9 years old",
+"To understand": null,
+"Law & Standards": "16 CFR part 1250",
+"Regions": "US 🇺🇸",
+"WhatItIs": "An age range stated on the product label (e.g. \"for children 3–9 years old\")."
+},
+{
+"id": 6,
+"Category": "Labeling & Packaging",
+"Type": "1. Mandatory",
+"Requirements": "Tracking information",
+"Applicable Items": [
+"Product and packaging"
+],
+"Risk Level": "High Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Packaging",
+"Enclosure"
+],
+"Description": "What We Need To Do\nThe tracking label requirement mandates that the following items of information be ascertainable from the permanent, distinguishing marks on the children’s product and its packaging (to the extent practicable):\n• Manufacturer/importer or private labeler name\n• Location and date of production\n• Detailed information on the manufacturing process (e.g., batch or run number) or other identifying characteristics\n• Any other information to facilitate ascertaining the specific source of the product (e.g., address of the manufacturing plant)",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Permanent tracking marks on the children's product and its packaging that allow the source to be identified: manufacturer/importer or private-labeler name, location and date of production, batch/run number or other identifying characteristics, and any information that helps trace the specific source."
+},
+{
+"id": 7,
+"Category": "Labeling & Packaging",
+"Type": "1. Mandatory",
+"Requirements": "FCC Logo & FCC statement",
+"Applicable Items": [
+"Product and packaging"
+],
+"Risk Level": "High Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Packaging",
+"Enclosure"
+],
+"Description": "What We Need To Do\nPlease add the FCC logo and FCC statement on the product\n\nThis device complies with part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) This device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation\n\nAdditional Information\nPlease note that the charger also needs to meet this requirement.",
+"To understand": null,
+"Law & Standards": "FCC- 47 CFR Part 15 -- Radio Frequency Devices",
+"Regions": "US 🇺🇸",
+"WhatItIs": "The FCC logo and the Part 15 compliance statement printed on the product (and the charger): \"This device complies with part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) this device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation.\""
+},
+{
+"id": 8,
+"Category": "Test report",
+"Type": "1. Mandatory",
+"Requirements": "FCC Test report (47 CFR part 15C)",
+"Applicable Items": [
+"Wireless Connection"
+],
+"Risk Level": "High Risk",
+"Leadtime": "4 weeks",
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Core"
+],
+"Description": "What We Need To Do\n• Get the test report and certificate of FCC test report of 47 CFR Part 15 sub part C.\n• Obtain the FCC ID.\nAdditional information\nYou have to arrage the testing with a FCC-recognized accredited testing laboratory.",
+"To understand": null,
+"Law & Standards": "FCC- 47 CFR Part 15 -- Radio Frequency Devices",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A test report and certificate for FCC 47 CFR Part 15 Subpart C (intentional radiators / wireless connection), issued by an FCC-recognized accredited laboratory; it is the basis for obtaining the FCC ID."
+},
+{
+"id": 9,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Others",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"User manual"
+],
+"Description": "What We Need To Do\nThe labelling information is suggested in the instruction as well.\nLanguages\nText needs to be translated into the local languages of the countries where you sell the product",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Labelling information is also recommended to be reflected in the instructions, with the text translated into the local language(s) of the countries where the product is sold."
+},
+{
+"id": 10,
+"Category": "Labeling & Packaging",
+"Type": "3. Voluntary",
+"Requirements": "Bar code",
+"Applicable Items": [
+"Packaging"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Packaging"
+],
+"Description": "What We Need To Do\n• Include a barcode if applicable.",
+"To understand": "Cần làm nếu mình bán hàng trên Amazon\n\nNeeded if we want to sell product on Amazon",
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A barcode on the packaging where applicable (for example, needed when selling the product on Amazon)."
+},
+{
+"id": 11,
+"Category": "Labeling & Packaging",
+"Type": "3. Voluntary",
+"Requirements": "Technical Data",
+"Applicable Items": [
+"Product and packaging"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Enclosure",
+"User manual"
+],
+"Description": "What We Need To Do\nAdd the information below on the product label, For example,\n• Rated voltage input\n• Battery capacity",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Technical information on the product label, for example rated input voltage and battery capacity."
+},
+{
+"id": 12,
+"Category": "Test report",
+"Type": "3. Voluntary",
+"Requirements": "Test Report for Battery (UL 1642)",
+"Applicable Items": [
+"Battery"
+],
+"Risk Level": "Low Risk",
+"Leadtime": "2 weeks",
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Battery"
+],
+"Description": "What We Need To Do\nObtain the test report of UL 1642 - Standard for Safety for Lithium Batteries (if it is lithium battery)\n\n- Often required for entry into major retail chains\n- There is no federal law in the US requiring consumer products to be UL 1642 certified\n- UL 1642 assesses risks such as:\n◦ Overheating\n◦ Short circuiting\n◦ Impact, vibration, explosion\n◦ Reverse polarity, compression testing, needle penetration, etc.",
+"To understand": "- Thường yêu cầu phải có nếu muốn vào các chuỗi bán lẻ lớn\n- Không có luật liên bang nào ở Mỹ bắt buộc sản phẩm tiêu dùng phải có chứng nhận UL 1642\n- UL 1642 đánh giá các rủi ro như:\n    ◦ Quá nhiệt\n    ◦ Chập mạch\n    ◦ Va đập, rung, cháy nổ\n    ◦ Phân cực ngược, thử nghiệm ép, xuyên kim…",
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A UL 1642 safety test report for lithium batteries. Not required by US federal law, but often required to enter major retail chains. UL 1642 assesses risks such as overheating, short-circuiting, impact/vibration/explosion, reverse polarity, compression and needle penetration."
+},
+{
+"id": 13,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Explanation of safety signs, graphical symbols and markings",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"User manual"
+],
+"Description": "What We Need To Do\nSafety signs, graphical symbols, pictograms, and markings placed on the supported product and packaging shall be explained, if any.",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Any safety signs, graphical symbols, pictograms and markings placed on the product and packaging are explained (in the instructions)."
+},
+{
+"id": 14,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Information for use needed during the lifetime",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"User manual"
+],
+"Description": "What We Need To Do\nPlease specify the necessary information when appropriate.\n1. Re-packaging of the supported product if applicable\n2. Transportation and storage of the supported product\n3. Installation of the supported product\n4. commissioning of the supported product\n5. modification of the supported product",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Information needed across the product's lifetime, where relevant: re-packaging, transport and storage, installation, commissioning, and modification of the product."
+},
+{
+"id": 15,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Preparation for use",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"User manual"
+],
+"Description": "What We Need To Do\nInstruction on unpacking, assembly and setup. Instruction for assembly of self-assembly products. How to assemble the sensor is important for the user.",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Instructions for unpacking, assembly and setup, including assembly of any self-assembly parts."
+},
+{
+"id": 16,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Operation of the supported product",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"User manual"
+],
+"Description": "What We Need To Do\nPlease specify the information below\n1. Normal operation\n2. Exceptional and emergency situations\n3. Indication of faults and warning device signals of the supported product\n4. Meaning of signals of the supported product",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Information on operating the product: normal operation, exceptional and emergency situations, indication of faults and warning signals, and the meaning of those signals."
+},
+{
+"id": 17,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Maintenance of the supported product by non-skilled and skilled persons",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"User manual"
+],
+"Description": "What We Need To Do\nPlease add the instructions on how to maintain the product when it is possible for the users to maintain the product by themselves.",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Instructions on how users can maintain the product themselves, where this is possible."
+},
+{
+"id": 18,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Troubleshooting and repair of the supported product by non-skilled and skilled persons",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"User manual"
+],
+"Description": "What We Need To Do\nPlease add instructions on how to repair the product when it is possible for the users to do it themselves, if applicable.",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Instructions on how users can troubleshoot and repair the product themselves, where applicable."
+},
+{
+"id": 39,
+"Category": "Test report",
+"Type": "1. Mandatory",
+"Requirements": "FCC Test report (47 CFR part 15B)",
+"Applicable Items": [
+"Charger"
+],
+"Risk Level": "High Risk",
+"Leadtime": "1 week",
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Charger"
+],
+"Description": "What We Need To Do\n• Get the test report and certificate of FCC test report of 47 CFR Part 15 sub part B.\n• Obtain the FCC SDOC.\nAdditional Information\nYou can also test the charger together with the wirelss module in CA3-10. In this case, no need to get additional report mention on the page for the battery charger.",
+"To understand": null,
+"Law & Standards": "FCC- 47 CFR Part 15 -- Radio Frequency Devices",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A test report and certificate for FCC 47 CFR Part 15 Subpart B (unintentional radiators) for the charger, together with the FCC SDoC. The charger may instead be tested together with the wireless module."
+},
+{
+"id": 40,
+"Category": "Test report",
+"Type": "1. Mandatory",
+"Requirements": "Toy Safety (ASTM F963-16)",
+"Applicable Items": [
+"Plush Toy"
+],
+"Risk Level": "High Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Enclosure",
+"Silicone Skin",
+"Attachment Band"
+],
+"Description": "What We Need To Do\n• Arrange this test report with a CPSC-accredited lab.\n\nCovers many aspects: impact, choking, chemicals, warning labels.",
+"To understand": "Bao phủ nhiều khía cạnh: va đập, hóc, hóa chất, nhãn cảnh báo\n\nCovers many aspects: impact, choking, chemicals, warning labels.",
+"Law & Standards": "16 CFR part 1250",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A toy-safety test report (ASTM F963-16) from a CPSC-accredited laboratory. It covers many aspects: impact, choking, chemicals and warning labels."
+},
+{
+"id": 41,
+"Category": "Test report",
+"Type": "1. Mandatory",
+"Requirements": "15 USC 1278a (Total Lead)",
+"Applicable Items": [
+"Plush Toy"
+],
+"Risk Level": "High Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Attachment Band",
+"Enclosure",
+"Silicone Skin"
+],
+"Description": "What We Need To Do\n• Obtain testing from a CPSC-accredited laboratory.\n\nLead content in base material (<100 ppm)",
+"To understand": "Hàm lượng chì trong vật liệu nền (<100 ppm)\n\nLead content in base material (<100 ppm)",
+"Law & Standards": "15 U.S. Code § 1278a - Children’s products containing lead; lead paint rule",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Testing by a CPSC-accredited laboratory confirming that total lead content in the base material is below 100 ppm."
+},
+{
+"id": 42,
+"Category": "Test report",
+"Type": "1. Mandatory",
+"Requirements": "16 CFR 1303 (Lead Coating)",
+"Applicable Items": [
+"Plush Toy"
+],
+"Risk Level": "High Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Silicone Skin",
+"Enclosure",
+"Attachment Band"
+],
+"Description": "What We Need To Do\n• Arrange lead testing with a CPSC-accredited laboratory.\n\nLead content <90 ppm in paint coatings/contact surfaces",
+"To understand": "Hàm lượng chì <90 ppm trong lớp phủ sơn/bề mặt tiếp xúc\n\nLead content <90 ppm in paint coatings/contact surfaces",
+"Law & Standards": "16 CFR 1303 (Ban of Lead-Containing Paint and Certain Consumer Products Bearing Lead-Containing Paint)",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Lead testing by a CPSC-accredited laboratory confirming that lead in paint coatings / contact surfaces is below 90 ppm."
+},
+{
+"id": 43,
+"Category": "Test report",
+"Type": "1. Mandatory",
+"Requirements": "16 CFR 1307 (Phthalates)",
+"Applicable Items": [
+"Plush Toy"
+],
+"Risk Level": "High Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Silicone Skin",
+"Enclosure",
+"Attachment Band"
+],
+"Description": "What We Need To Do\n• Arrange lead testing with a CPSC-accredited laboratory.\n\nPhthalates content limit (<0.1%) for plastics, silicones…",
+"To understand": "Giới hạn hàm lượng Phthalates (<0.1%) cho nhựa, silicone…\n\nPhthalates content limit (<0.1%) for plastics, silicones…",
+"Law & Standards": "16 CFR part 1307 - PROHIBITION OF CHILDREN'S TOYS AND CHILD CARE ARTICLES CONTAINING SPECIFIED PHTHALATES",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Testing by a CPSC-accredited laboratory confirming that phthalates are below the 0.1% limit for plastics, silicones and similar materials."
+},
+{
+"id": 44,
+"Category": "Regulatory Affair",
+"Type": "1. Mandatory",
+"Requirements": "Children’s Online Privacy Protection Rule",
+"Applicable Items": [
+"App"
+],
+"Risk Level": "High Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"App/Web User Privacy Policy"
+],
+"Description": "What We Need To Do\nComply with the requirements of COPPR.\nAdditional Information\nIt shall be unlawful for any operator of a Web site or online service directed to children, or any operator that has actual knowledge that it is collecting or maintaining personal information from a child, to collect personal information from a child in a manner that violates the regulations prescribed under this part. Generally, under this part, an operator must:\n(a) Provide notice on the Web site or online service of what information it collects from children, how it uses such information, and its disclosure practices for such information (§ 312.4(b));\n(b) Obtain verifiable parental consent prior to any collection, use, and/or disclosure of personal information from children (§ 312.5);\n(c) Provide a reasonable means for a parent to review the personal information collected from a child and to refuse to permit its further use or maintenance (§ 312.6);\n(d) Not condition a child's participation in a game, the offering of a prize, or another activity on the child disclosing more personal information than is reasonably necessary to participate in such activity (§ 312.7); and\n(e) Establish and maintain reasonable procedures to protect the confidentiality, security, and integrity of personal information collected from children (§ 312.8).",
+"To understand": null,
+"Law & Standards": "16 CFR PART 312—(COPPR)CHILDREN'S ONLINE PRIVACY PROTECTION RULE",
+"Regions": "US 🇺🇸",
+"WhatItIs": "The Children's Online Privacy Protection Rule (COPPA) governs websites/online services directed to children. The operator must: give notice of what information is collected from children, how it is used and disclosed; obtain verifiable parental consent before collection, use or disclosure; provide a means for a parent to review the information and refuse further use; not condition a child's participation on disclosing more information than necessary; and maintain reasonable procedures to protect the data."
+},
+{
+"id": 45,
+"Category": "Test report",
+"Type": "1. Mandatory",
+"Requirements": "Transportation Test Report for Lithium Battery",
+"Applicable Items": [
+"Lithium Battery"
+],
+"Risk Level": "High Risk",
+"Leadtime": "4 weeks",
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Battery"
+],
+"Description": "What We Need To Do\nObtain the test report for Lithium batteries\n• MSDS\n• UN38.3\n• IEC 62133-2\n• IMDG\nPlease note It is not required by law but normally required by transportation companies.",
+"To understand": "Normally required for transportation services",
+"Law & Standards": "PART 171—GENERAL INFORMATION REGULATIONS AND DEFINITIONS (UN38.3)",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Transport-safety documentation for the lithium battery: MSDS, UN38.3, IEC 62133-2 and IMDG. Not required by law, but normally required by transportation companies."
+},
+{
+"id": 46,
+"Category": "Regulatory Affair",
+"Type": "2. Contingent",
+"Requirements": "California Consumer Privacy Act (CCPA)",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Medium Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"App/Web User Privacy Policy"
+],
+"Description": "What We Need To Do\nPay attention to the requirements of  California Consumer Privacy Act (CCPA).\nThe California Consumer Privacy Act of 2018 (CCPA) gives consumers more control over the personal information that businesses collect about them and the CCPA regulations provide guidance on how to implement the law. This landmark law secures new privacy rights for California consumers, including:\n• The right to know about the personal information a business collects about them and how it is used and shared;\n• The right to delete personal information collected from them (with some exceptions);\n• The right to opt-out of the sale or sharing of their personal information including via the GPC;\n• The right to non-discrimination for exercising their CCPA rights.",
+"To understand": null,
+"Law & Standards": "California Consumer Privacy Act (CCPA)",
+"Regions": "US 🇺🇸",
+"WhatItIs": "The California Consumer Privacy Act (CCPA) gives California consumers more control over their personal information, including: the right to know what is collected and how it is used and shared; the right to delete it (with some exceptions); the right to opt out of its sale or sharing (including via GPC); and the right to non-discrimination for exercising these rights."
+},
+{
+"id": 47,
+"Category": "Regulatory Affair",
+"Type": "2. Contingent",
+"Requirements": "California Internet of Things (IoT) Security Law SB-327",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Medium Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"App/Web User Privacy Policy"
+],
+"Description": "What We Need To Do\nPay attention to the requirements of  California Internet of Things (IoT) Security Law SB-327.\nSB-327 has two main provisions requiring manufacturers to implement reasonable security features and unique password requirements for their devices.\n• Reasonable Security Features: These protect devices and prevent unauthorized access to collected, stored, or transmitted information. Examples include data encryption, secure APIs, and regular software updates. The features must be appropriate for each device's specific use case.\n• Unique Passwords and Security Measures: For devices that connect outside local networks, manufacturers must either preprogram unique passwords or require users to create a new password before their first use of the device.",
+"To understand": null,
+"Law & Standards": "California Internet of Things (IoT) Security Law SB-327",
+"Regions": "US 🇺🇸",
+"WhatItIs": "California's Internet of Things Security Law (SB-327) requires manufacturers of connected devices to implement reasonable security features appropriate to the device (e.g. data encryption, secure APIs, regular updates) and, for devices connecting outside the local network, either preprogrammed unique passwords or a forced password change on first use."
+},
+{
+"id": 48,
+"Category": "Regulatory Affair",
+"Type": "2. Contingent",
+"Requirements": "California Data Breach Notification Law",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Medium Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"App/Web User Privacy Policy"
+],
+"Description": "What We Need To Do\nPay attention to the requirements of  California Data Breach Notification Law.",
+"To understand": null,
+"Law & Standards": "California Data Breach Notification Law",
+"Regions": "US 🇺🇸",
+"WhatItIs": "California's Data Breach Notification Law sets the requirements for notifying consumers when their personal information is involved in a data breach."
+},
+{
+"id": 109,
+"Category": "Regulatory Affair",
+"Type": "2. Contingent",
+"Requirements": "Washington State Reporting Rule",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Medium Risk",
+"Leadtime": null,
+"To-do": "__NO__",
+"Compliance Status": "Missing",
+"Applied Component": null,
+"Description": "What We Need To Do\nReporting to the state is required when a Chemical of High Concern (CHCC) is present above 100 ppm (0.01%) in an accessible component of any children’s product.\nAdditional Information\nNO FEES REQUIRED\nList of CHCCs can be found here:\nChemicals of high concern to children - Washington State Department of Ecology\nInterstate Reporting Website can be accessed here (for WA, OR, VT):\nHigh Priority Chemicals Data System (HPCDS) - Interstate Chemicals Clearinghouse (IC2)\nAlternatively, reporting can be done directly with the state here:\nReporting for Children's Safe Products Act - Washington State Department of Ecology",
+"To understand": null,
+"Law & Standards": "Children's Safe Products Act (Chapter 70A.430 RCW)",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Reporting to Washington State is required when a Chemical of High Concern to Children (CHCC) is present above 100 ppm (0.01%) in an accessible component of a children's product. No fees required."
+},
+{
+"id": 110,
+"Category": "Regulatory Affair",
+"Type": "2. Contingent",
+"Requirements": "Texas State Registration",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Medium Risk",
+"Leadtime": null,
+"To-do": "__NO__",
+"Compliance Status": "Missing",
+"Applied Component": null,
+"Description": "What We Need To Do\nRegister with the State of Texas to obtain a license to sell Hazardous Materials. Art Materials are specifically listed along with Children’s Products.\nAdditional Information\nFEES REQUIRED\nGeneral information can be found here:\nHazardous Consumer Products Registration Program | Texas DSHS\nRegistration can be fulfilled here:\nOnline Services",
+"To understand": null,
+"Law & Standards": "Hazardous Consumer Products Registration",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Registration with the State of Texas to obtain a license to sell hazardous materials; children's products (and art materials) are specifically listed. Fees required."
+},
+{
+"id": 111,
+"Category": "Regulatory Affair",
+"Type": "2. Contingent",
+"Requirements": "Maine State Reporting Rule",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Medium Risk",
+"Leadtime": null,
+"To-do": "__NO__",
+"Compliance Status": "Missing",
+"Applied Component": null,
+"Description": "What We Need To Do\nReporting to the state is required when a Priority Chemical is at or  above the practical quantification limits (PQL) in a relevant (accessible) component of a children’s product.\nAdditional Information\nFEES REQUIRED\nList of the Priority Chemicals can be found here:\nSafer Chemicals in Children's Products, Priority Chemicals, Maine DEP\nReporting Instructions can be found here:\nSafer Chemicals in Children's Products, Priority Chemicals, Maine DEP\n💡 Practical quantification limit means the lowest concentration of a chemical that can be reliably measured…during routine laboratory operating conditions.",
+"To understand": null,
+"Law & Standards": "Title 38 Chapter 16-D: Toxic Chemicals In Children's Products",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Reporting to Maine is required when a Priority Chemical is at or above the practical quantification limit (PQL) in an accessible component of a children's product. Fees required."
+},
+{
+"id": 112,
+"Category": "Regulatory Affair",
+"Type": "2. Contingent",
+"Requirements": "Vermont State Reporting Rule",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Medium Risk",
+"Leadtime": null,
+"To-do": "__NO__",
+"Compliance Status": "Missing",
+"Applied Component": null,
+"Description": "What We Need To Do\nReporting to the state is required when a Chemical of High Concern To Children (CHCC) is present above 100 ppm (0.01%) in an accessible component of any children’s product.\nAdditional Information\nFEE REQUIRED\nList of the Priority Chemicals can be found here:\nEnv_CDP_chemicals_of_high_concern_to_children.xls\nInterstate Reporting Website can be accessed here (for WA, OR, VT):\nHigh Priority Chemicals Data System (HPCDS) - Interstate Chemicals Clearinghouse (IC2)",
+"To understand": null,
+"Law & Standards": "Chemical Disclosure Program for Children's Products (Act 188 18 V.S.A. Chapter 38A)",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Reporting to Vermont is required when a Chemical of High Concern to Children (CHCC) is present above 100 ppm (0.01%) in an accessible component of a children's product. Fee required."
+},
+{
+"id": 113,
+"Category": "Regulatory Affair",
+"Type": "2. Contingent",
+"Requirements": "Oregon State Reporting Rule",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Medium Risk",
+"Leadtime": null,
+"To-do": "__NO__",
+"Compliance Status": "Missing",
+"Applied Component": null,
+"Description": "What We Need To Do\nReporting to the state is required when a High Priority Chemicals of Concern for Children’s Health (HPCCCH) is present above 100 ppm (0.01%) in an accessible component of any children’s product.\nAdditional Information\nFEES REQUIRED EVERY 2 YEARS\nList of HPCCCH’s can be found here:\nOregon Secretary of State Administrative Rules\nReporting Instructions can be found here:\nhttps://www.theic2.org/hpcds",
+"To understand": null,
+"Law & Standards": "Toxic-Free Kids Act (ORS 431A.253 - 431A.280)",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Reporting to Oregon is required when a High Priority Chemical of Concern for Children's Health (HPCCCH) is present above 100 ppm (0.01%) in an accessible component of a children's product. Fees required every 2 years."
+},
+{
+"id": 114,
+"Category": "Test report",
+"Type": "2. Contingent",
+"Requirements": "Button Battery Safety (UL 4200A)",
+"Applicable Items": [
+"Battery"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__NO__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Battery"
+],
+"Description": "What We Need To Do\nObtain the test report of UL 4200A if any button battery or Coin battery is included.",
+"To understand": null,
+"Law & Standards": "Reese’s Law (P.L. 117-171)",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A UL 4200A test report, required if the product includes any button or coin battery (under Reese's Law)."
+},
+{
+"id": 115,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Supplied accessories, consumables and spare parts",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__NO__",
+"Compliance Status": "Missing",
+"Applied Component": null,
+"Description": "What We Need To Do\nPlease specify the information for the accessories or spare parts, if any.",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Information about any supplied accessories, consumables and spare parts."
+},
+{
+"id": 116,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Replacement of parts of the supported product by non-skilled and skilled persons",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__NO__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"User manual"
+],
+"Description": "What We Need To Do\nPlease add instructions on how to replace the parts when it is possible for the users to do it themselves, if applicable.",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Instructions on how users can replace parts of the product themselves, where applicable."
+},
+{
+"id": 117,
+"Category": "Test report",
+"Type": "3. Voluntary",
+"Requirements": "Test report (UL 62368-1)",
+"Applicable Items": [
+"Product",
+"Charger"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__NO__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Charger",
+"Battery",
+"Core"
+],
+"Description": "What We Need To Do\nWe recommend obtaining a UL 62368-1 test report to ensure product safety mainly for the electric parts including the battery charger.",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A UL 62368-1 safety test report, recommended to ensure safety of the electrical parts, mainly the battery charger."
+},
+{
+"id": 179,
+"Category": "Test report",
+"Type": "1. Mandatory",
+"Requirements": "California Proposition 65",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": "2 weeks",
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"All product"
+],
+"Description": "What We Need To Do\nArrange a test report from an accredited lab that demonstrates the following substances do not exceed the established limits set by California Proposition 65.\n\nIf you have the accurate ingredient list with CAS number, we can verify that if any substances are listed in the California Proposition 65.",
+"To understand": "Mã CAS (Chemical Abstracts Service) chỉ đơn thuần là mã định danh duy nhất cho từng hóa chất\n\nChemical Abstracts Service (CAS) code is simply a unique identifier for each chemical\n\nTo-do: have the accurate ingredient list with CAS number",
+"Law & Standards": "California Proposition 65",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A California Proposition 65 test report from an accredited laboratory showing that listed substances do not exceed California's limits. An accurate ingredient list with CAS numbers allows verification of whether any substance is listed under Prop 65."
+},
+{
+"id": 180,
+"Category": "Test report",
+"Type": "1. Mandatory",
+"Requirements": "Illinois Lead Act Compliance",
+"Applicable Items": [
+"Plush Toy"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Enclosure",
+"Silicone Skin",
+"Attachment Band"
+],
+"Description": "What We Need To Do\nArrange a test report from an accredited lab verifying compliance with the Illinois Lead Poisoning Prevention Act (Illinois Lead Act):\n1. Test for lead content in all accessible parts of the product.\n2. Ensure lead levels do not exceed 100 ppm.",
+"To understand": "• Áp dụng khi nào?\nKhi bạn bán hoặc phân phối sản phẩm tại tiểu bang Illinois, và sản phẩm là đồ dùng hoặc đồ chơi cho trẻ dưới 12 tuổi.\n• Yêu cầu chính:\nTest để đảm bảo hàm lượng chì trong vật liệu phủ hoặc sơn < 90 ppm, và vật liệu nền < 100 ppm.\n\n• When does it apply?\nWhen you sell or distribute a product in the state of Illinois, and the product is an article or toy for children under 12 years of age.\n• Main requirement:\nTest to ensure that the lead content in the coating or paint material is <90 ppm, and the base material is <100 ppm.",
+"Law & Standards": "Illinois - Lead Poisoning Prevention Act",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A test report from an accredited laboratory verifying compliance with the Illinois Lead Poisoning Prevention Act: lead in all accessible parts must not exceed the limits (paint/coating < 90 ppm and base material < 100 ppm). Applies to articles or toys for children under 12 sold or distributed in Illinois."
+},
+{
+"id": 181,
+"Category": "Labeling & Packaging",
+"Type": "2. Contingent",
+"Requirements": "California Prop 65 Warning",
+"Applicable Items": [
+"Product and packaging"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"App/Web User Privacy Policy",
+"Packaging"
+],
+"Description": "What We Need To Do\n• Wait for outcome of Prop 65 test.\n• Add a warning label if any substances exceed the established limits set by California Proposition 65.\n• Use this exact wording:\n“WARNING: This product can expose you to [name of chemical(s)], which is known to the State of California to cause cancer [and/or birth defects or other reproductive harm]. For more information go to www.P65Warnings.ca.gov.”\n• Put the warning on:\n    ◦ The product or its packaging.\n    ◦ Online listings (before the customer checks out).\n• Use this official warning symbol.",
+"To understand": null,
+"Law & Standards": "California Proposition 65",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A Prop 65 warning label, required if any substance exceeds California's limits. It uses the exact Prop 65 wording — \"WARNING: This product can expose you to [chemical(s)], which is known to the State of California to cause cancer [and/or birth defects or other reproductive harm]…\" — with the official warning symbol, placed on the product or packaging and on online listings before checkout."
+},
+{
+"id": 182,
+"Category": "Labeling & Packaging",
+"Type": "2. Contingent",
+"Requirements": "Illinois Lead Poisoning Prevention Act Labeling",
+"Applicable Items": [
+"Product"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Enclosure",
+"Silicone Skin",
+"Attachment Band",
+"Packaging"
+],
+"Description": "What We Need To Do\nIf the product contains paints that have a total lead content between 40 parts per million (ppm) and 600 ppm, the product must bear a specific warning label:\n\nWARNING: CONTAINS LEAD. MAY BE HARMFUL IF EATEN OR CHEWED. MAY GENERATE DUST CONTAINING LEAD.\n\nThe warning must be prominently displayed on the product itself or on the immediate container of the product.",
+"To understand": null,
+"Law & Standards": "Illinois - Lead Poisoning Prevention Act",
+"Regions": "US 🇺🇸",
+"WhatItIs": "If paints contain total lead between 40 ppm and 600 ppm, a specific warning label is required: \"WARNING: CONTAINS LEAD. MAY BE HARMFUL IF EATEN OR CHEWED. MAY GENERATE DUST CONTAINING LEAD.\" It must be displayed prominently on the product itself or on its immediate container."
+},
+{
+"id": 183,
+"Category": "Labeling & Packaging",
+"Type": "2. Contingent",
+"Requirements": "Suffocation Warning",
+"Applicable Items": [
+"Plastic bag"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Packaging"
+],
+"Description": "What We Need To Do\nAdd a suffocation warning to any plastic films (if they exist). For example:\nWarning: To avoid the danger of suffocation, keep this plastic bag away from babies and children. Do not use this bag in cribs, beds, carriages, or playpens. This bag is not a toy.",
+"To understand": null,
+"Law & Standards": "(GPSR)REGULATION (EU) 2023/988 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 10 May 2023 on general product safety",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A suffocation warning on any plastic films or bags, e.g. \"Warning: To avoid the danger of suffocation, keep this plastic bag away from babies and children. Do not use this bag in cribs, beds, carriages, or playpens. This bag is not a toy.\""
+},
+{
+"id": 184,
+"Category": "Test report",
+"Type": "2. Contingent",
+"Requirements": "Washington Lead-Cadmium-Phthalate Content",
+"Applicable Items": [
+"Plush Toy"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Enclosure",
+"Attachment Band",
+"Silicone Skin"
+],
+"Description": "What We Need To Do\nObtain the test report for Cadmium, lead and Phthalates.\n\nAdditional Information\nRCW 70.240.020 Prohibition on the manufacturing and sale of children's products containing lead, cadmium, or phthalates.\n(1) Beginning July 1, 2009, no manufacturer, wholesaler, or retailer may manufacture, knowingly sell, offer for sale, distribute for sale, or distribute for use in this state a children's product or product component containing the following:\n(a) Except as provided in subsection (2) of this section, lead (90 ppm) at more than .009 percent by weight (ninety parts per million);\n(b) Cadmium (40 ppm) at more than .004 percent by weight (forty parts per million); or\n(c) Phthalates (1000 ppm), individually or in combination, at more than 0.10 percent by weight (one thousand parts per million).",
+"To understand": "• Áp dụng khi nào?\nNếu bạn dự định bán hàng tại bang Washington (WA), đặc biệt nếu sản phẩm thuộc diện “children’s product”.\n• Yêu cầu:\nHạn chế và/hoặc khai báo 85+ hóa chất quan tâm, bao gồm:\n    ◦ Lead (Chì)\n    ◦ Cadmium (Cadimi)\n    ◦ Phthalates\n\n• When does it apply?\nIf you plan to sell in Washington State (WA), especially if the product is a “children’s product.”\n• Requirements: Restrict and/or declare 85+ chemicals of concern, including:\n◦ Lead\n◦ Cadmium\n◦ Phthalates",
+"Law & Standards": "Children's Safe Products Act (Chapter 70A.430 RCW)",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A test report for cadmium, lead and phthalates under Washington's Children's Safe Products Act (RCW 70.240.020): lead ≤ 90 ppm, cadmium ≤ 40 ppm, and phthalates ≤ 1000 ppm (individually or combined). Washington also restricts/declares 85+ chemicals of concern."
+},
+{
+"id": 185,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Product description and Intended use",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"User manual"
+],
+"Description": "What We Need To Do\nPlease specify the intended use of the product and the targeted user.",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "A statement of the product's intended use and its target user."
+},
+{
+"id": 186,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Safety-related information",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"User manual"
+],
+"Description": "What We Need To Do\nPlease specify any safety-related information, such as safety warnings or precautions.",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Any safety-related information, such as safety warnings or precautions."
+},
+{
+"id": 187,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Identifier",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"User manual"
+],
+"Description": "What We Need To Do\nIn short, you need to provide the product name, model number, and manufacturer's name and address.",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "Product identification: the product name, model number, and the manufacturer's name and address."
+},
+{
+"id": 188,
+"Category": "Instructions",
+"Type": "3. Voluntary",
+"Requirements": "Importance of retaining printed information for use",
+"Applicable Items": [
+"All"
+],
+"Risk Level": "Low Risk",
+"Leadtime": null,
+"To-do": "__YES__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"User manual"
+],
+"Description": "What We Need To Do\nIf the information for use is delivered in paper form, a statement, as shown by the two examples below, should draw the target audience's attention to the importance of retaining it for the intended lifetime of the supported product.\nExample 1\nIMPORTANT! Read carefully before use. Keep for future reference.\nExample 2\nFor safe and proper use, follow these instructions. Keep them for future reference.",
+"To understand": null,
+"Law & Standards": "N/A",
+"Regions": "US 🇺🇸",
+"WhatItIs": "When instructions are provided on paper, a statement reminding the user to keep them for the product's lifetime, e.g. \"IMPORTANT! Read carefully before use. Keep for future reference.\""
+},
+{
+"id": 450,
+"Category": "Test report",
+"Type": "4. Confirming (đang chốt)",
+"Requirements": "Battery IEC62133-2 (550)",
+"Applicable Items": [
+"Battery"
+],
+"Risk Level": "Low Risk",
+"Leadtime": "3 weeks",
+"To-do": "__NO__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Battery"
+],
+"Description": "Chuẩn quốc tế về an toàn pin. Đang chốt xem thử như thế nào so với",
+"To understand": null,
+"Law & Standards": null,
+"Regions": "Mixed 🌐",
+"WhatItIs": "An international battery-safety standard (IEC 62133-2). Still being confirmed whether it is needed."
+},
+{
+"id": 451,
+"Category": "Test report",
+"Type": "4. Confirming (đang chốt)",
+"Requirements": "IP43 Dustproof/Waterproof",
+"Applicable Items": [
+"Product"
+],
+"Risk Level": "Low Risk",
+"Leadtime": "1 week",
+"To-do": "__NO__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Packaging"
+],
+"Description": null,
+"To understand": null,
+"Law & Standards": null,
+"Regions": null,
+"WhatItIs": "An IP43 ingress-protection rating (limited dust and water-spray resistance). Still being confirmed whether it is needed."
+},
+{
+"id": 452,
+"Category": "Test report",
+"Type": "4. Confirming (đang chốt)",
+"Requirements": "TSCA (650)",
+"Applicable Items": [
+"Chemical substances"
+],
+"Risk Level": "Low Risk",
+"Leadtime": "2 weeks",
+"To-do": "__NO__",
+"Compliance Status": "Missing",
+"Applied Component": [
+"Core"
+],
+"Description": "Có chứa formaldehyde hay không",
+"To understand": "Không phải đồ gỗ, nên đang confirm xem liệu thật sự có cần không",
+"Law & Standards": null,
+"Regions": "US 🇺🇸",
+"WhatItIs": "TSCA (Toxic Substances Control Act) — relates to whether the product contains formaldehyde. As this is not a wood product, it is still being confirmed whether it is actually required."
+}
+]
