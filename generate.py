@@ -238,7 +238,8 @@ PAGE = f'''<!DOCTYPE html>
 </html>
 '''
 
-(ROOT / "index.html").write_text(PAGE, encoding="utf-8")
-print(f"Wrote index.html — {total} items ({n_committed} committed / {n_suggested} suggested)")
+OUT = "sbay-sent-compliance-list.html"
+(ROOT / OUT).write_text(PAGE, encoding="utf-8")
+print(f"Wrote {OUT} — {total} items ({n_committed} committed / {n_suggested} suggested)")
 for g in GROUPS:
     print(f"  {g[1]}: {by_type[g[0]]}")
